@@ -30,8 +30,8 @@ const Headermain = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
     { path: "/portfolio", label: "Portfolio" },
+    { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
 
@@ -50,9 +50,8 @@ const Headermain = () => {
                 <li key={link.path} className="navbar__link-item">
                   <Link
                     to={link.path}
-                    className={`navbar__link ${
-                      location.pathname === link.path ? "navbar__link--active" : ""
-                    }`}
+                    className={`navbar__link ${location.pathname === link.path ? "navbar__link--active" : ""
+                      }`}
                   >
                     {link.label}
                     <span className="navbar__link-indicator"></span>
@@ -83,9 +82,8 @@ const Headermain = () => {
                 >
                   <Link
                     to={link.path}
-                    className={`mobile-nav__link ${
-                      location.pathname === link.path ? "mobile-nav__link--active" : ""
-                    }`}
+                    className={`mobile-nav__link ${location.pathname === link.path ? "mobile-nav__link--active" : ""
+                      }`}
                     onClick={closeMenu}
                   >
                     {link.label}
