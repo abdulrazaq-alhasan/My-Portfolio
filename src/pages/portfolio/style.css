@@ -1,0 +1,125 @@
+.po_items_ho {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 991px) {
+    .po_items_ho {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .po_items_ho {
+        grid-template-columns: 1fr;
+    }
+}
+
+.po_item {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background: var(--secondary-color);
+    padding: 6px;
+    border: 1px solid var(--secondary-color);
+    transition: 0.3s ease;
+    font-size: 0;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.po_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.po_item .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--overlay-color);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.po_item:hover {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.po_item:hover .content {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    opacity: 1;
+    color: var(--secondary-color);
+}
+
+/* Two-button link container */
+.po_item_links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.po_item_link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-color);
+    border: solid 1px var(--text-color);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.po_item_link svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.po_item_link:hover {
+    background: var(--text-color);
+    color: var(--bg-color) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.po_item_link--github {
+    background: transparent;
+}
+
+.po_item_link--github:hover {
+    background: var(--text-color);
+    color: var(--bg-color) !important;
+}
+
+@media (max-width: 575px) {
+    .po_item_links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .po_item_link {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
