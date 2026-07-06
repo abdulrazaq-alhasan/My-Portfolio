@@ -1,3 +1,6 @@
+import backroad from "./assets/images/backroads.png";
+import unsplash from "./assets/images/unsplash-images.png";
+
 const logotext = "ABBE";
 const meta = {
     title: "Abdulrazaq Alhasan",
@@ -36,22 +39,27 @@ const worktimeline = [{
 },
 ];
 
-const skills = [{
-    name: "Javascript",
-    value: 90,
-},
-{
-    name: "React",
-    value: 85,
-},
-{
-    name: "Vue",
-    value: 80,
-},
-{
-    name: "Jquery",
-    value: 85,
-},
+const skills = [
+    {
+        name: "Html",
+        value: 95,
+    },
+    {
+        name: "Css",
+        value: 85,
+    },
+    {
+        name: "Javascript",
+        value: 90,
+    },
+    {
+        name: "React",
+        value: 80,
+    },
+    {
+        name: "Vue",
+        value: 75,
+    }
 ];
 
 const services = [{
@@ -69,42 +77,25 @@ const services = [{
 ];
 
 const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/800/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
+    img: backroad,
+    description: "A responsive travel website built with React featuring reusable components, modern UI, and a clean user experience.",
 
+    link: "https://backroads-web.vercel.app/",
+    github: "https://github.com/abdulrazaq-alhasan/backroads-app",
+},
+{
+    img: unsplash,
+    description: "An image search application powered by the Unsplash API, allowing users to search and browse high-quality photos in real time.",
+
+    link: "https://unsplash-images-taupe.vercel.app/",
+    github: "https://github.com/abdulrazaq-alhasan/Unsplash-Images",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+    github: "#",
+},
 {
     img: "https://picsum.photos/400/600/?grayscale",
     description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -118,30 +109,11 @@ const dataportfolio = [{
     github: "#",
 },
 {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/550/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-    github: "#",
-},
-{
     img: "https://picsum.photos/400/700/?grayscale",
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
     github: "#",
-},
-];
+}];
 
 const contactConfig = {
     YOUR_EMAIL: "name@domain.com",
