@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { dataportfolio, meta } from '../../content_option';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
-export const Portfolio = () => {
+export const Projects = () => {
     return (
         <HelmetProvider>
             <Container className="About-header">

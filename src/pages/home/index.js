@@ -46,14 +46,19 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                  <a
+                    href="https://www.mediafire.com/file/y57ebn8v7p545wj/CV.docx/file"
+                    className="text_2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div id="button_p" className="ac_btn btn">
+                      Download CV
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  </a>
                   <Link to="/contact">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me

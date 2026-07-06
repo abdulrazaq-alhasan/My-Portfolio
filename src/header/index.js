@@ -30,7 +30,7 @@ const Headermain = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/portfolio", label: "Portfolio" },
+    { path: "/projects", label: "Projects" },
     { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
   ];
