@@ -20,23 +20,20 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Frontend Developer based in Västerås, Sweden, passionate about building modern, responsive, and user-friendly web applications. I enjoy learning new technologies, solving problems, and creating clean, maintainable code with React, JavaScript, and Vue.",
 };
-const worktimeline = [{
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-},
-{
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-},
-{
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-},
+
+const worktimeline = [
+    {
+        jobtitle: "Frontend Development Intern",
+        where: "Ampilio AB, Västerås",
+        date: "Feb 2020",
+    },
+    {
+        jobtitle: "Frontend Development Intern",
+        where: "Rise and Shine Örebro",
+        date: "Oct 2019",
+    },
 ];
 
 const skills = [
@@ -64,15 +61,15 @@ const skills = [
 
 const services = [{
     title: "UI & UX Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "I design clean and modern user interfaces focused on usability, responsiveness, and user experience.",
 },
 {
-    title: "Mobile Apps",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Frontend Development",
+    description: "I build responsive and interactive web applications using React, JavaScript, TypeScript, and modern frontend tools.",
 },
 {
     title: "Wordpress Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "I create and customize WordPress websites with a focus on performance, responsiveness, and clean design.",
 },
 ];
 
@@ -116,10 +113,9 @@ const dataportfolio = [{
 }];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
+    YOUR_EMAIL: "abdulrazaq.me@gmail.com",
+    YOUR_FONE: "+46 765 87 90 28",
+    description: "I’m always open to discussing new opportunities, projects, or collaborations in frontend development. Feel free to reach out anytime.",
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
