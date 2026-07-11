@@ -1,5 +1,6 @@
 import backroad from './assets/images/backroads.png';
 import unsplash from './assets/images/unsplash-images.png';
+import ecommerce from './assets/images/react-ecommerce.png';
 
 const logotext = 'ABBE';
 const meta = {
@@ -99,7 +100,7 @@ const dataportfolio = [
         github: 'https://github.com/abdulrazaq-alhasan/Unsplash-Images',
     },
     {
-        img: 'https://picsum.photos/400/?grayscale',
+        img: ecommerce,
         title: 'React Ecommerce',
         description:
             'A modern eCommerce application built with React, featuring authentication, shopping cart, checkout, product filtering, and a responsive user interface. Currently in development.',
