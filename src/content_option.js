@@ -1,6 +1,7 @@
 import backroad from './assets/images/backroads.png';
 import unsplash from './assets/images/unsplash-images.png';
 import ecommerce from './assets/images/react-ecommerce.png';
+import ayashBygg from './assets/images/ayashBygg.png';
 
 const logotext = 'ABBE';
 const meta = {
@@ -84,22 +85,6 @@ const services = [
 
 const dataportfolio = [
     {
-        img: backroad,
-        description:
-            'A responsive travel website built with React featuring reusable components, modern UI, and a clean user experience.',
-
-        link: 'https://backroads-web.vercel.app/',
-        github: 'https://github.com/abdulrazaq-alhasan/backroads-app',
-    },
-    {
-        img: unsplash,
-        description:
-            'An image search application powered by the Unsplash API, allowing users to search and browse high-quality photos in real time.',
-
-        link: 'https://unsplash-images-taupe.vercel.app/',
-        github: 'https://github.com/abdulrazaq-alhasan/Unsplash-Images',
-    },
-    {
         img: ecommerce,
         title: 'React Ecommerce',
         description:
@@ -108,11 +93,27 @@ const dataportfolio = [
         github: 'https://github.com/abdulrazaq-alhasan/React-Ecommerce.git',
     },
     {
-        img: 'https://picsum.photos/400/600/?grayscale',
+        img: backroad,
         description:
-            'The wisdom of life consists in the elimination of non-essentials.',
-        link: '#',
+            'A responsive travel website built with React featuring reusable components, modern UI, and a clean user experience.',
+
+        link: 'https://backroads-web.vercel.app/',
+        github: 'https://github.com/abdulrazaq-alhasan/backroads-app',
+    },
+    {
+        img: ayashBygg,
+        description:
+            'A responsive React website for a construction business, designed with a clean layout, fast performance, and mobile-friendly experience.',
+        link: 'https://ayashbygg.se/',
         github: '#',
+    },
+    {
+        img: unsplash,
+        description:
+            'An image search application powered by the Unsplash API, allowing users to search and browse high-quality photos in real time.',
+
+        link: 'https://unsplash-images-taupe.vercel.app/',
+        github: 'https://github.com/abdulrazaq-alhasan/Unsplash-Images',
     },
     {
         img: 'https://picsum.photos/400/300/?grayscale',
