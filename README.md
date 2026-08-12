@@ -21,5 +21,3 @@ Install required dependencies
 
 
 Start the server
-
-<pre>yarn start</pre>
