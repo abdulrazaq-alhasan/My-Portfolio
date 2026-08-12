@@ -17,7 +17,4 @@ Get the code
  
 Install required dependencies
 
-<pre>yarn install</pre>
-
-
 Start the server
