@@ -20,7 +20,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <div className="cursor__dot">
       </div>
       <ScrollToTop>

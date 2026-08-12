@@ -26,7 +26,6 @@ export const Projects = () => {
                             <div key={i} className="po_item">
                                 <img src={data.img} alt="" />
                                 <div className="content">
-                                    <p>{data.description}</p>
                                     <div className="po_item_links">
                                         <a href={data.link} target="_blank" rel="noreferrer" className="po_item_link">
                                             <FiExternalLink /> View Project
